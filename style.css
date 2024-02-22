@@ -11,7 +11,7 @@
     /* font & typography */
     /* .5rem = 8px | 1rem = 16px */
     --body-font: "Poppins", sans-serif;
-    --h1-font-size: 1rem;
+    --h1-font-size: 2rem;
     --normal-font-size: 1rem;
     --small-font-size: .813rem;
 }
@@ -74,6 +74,29 @@ img{
     font-size: var(--h1-font-size);
     margin-bottom: 1.5rem;
 }
+
+.login__inputs,
+.login_box{
+    display: grid;
+
+}
+
+.login__inputs{
+    row-gap: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.login__box{
+    grid-template-columns: 1fr max-content;
+    column-gap: .75rem;
+    align-items: center;
+    border: 2px solid hsla(0, 0%, 100%, .7);
+    padding-inline: 1.25rem;
+    border-radius: 4rem;
+}
+
+
+
 
 
 /* BREAKPOINTS */
