@@ -95,8 +95,53 @@ img{
     border-radius: 4rem;
 }
 
+.login__input,
+.login__button{
+    border: none;
+    outline: none;
+}
+
+.login__input{
+    width: 100%;
+    background: none;
+    color: var(--white-color);
+    padding-block: 1rem;
+}
+
+.login__input::placeholder{
+    color: var(--white-color);
+}
+
+.login__box i{
+    font-size: 1.25rem;
+}
+
+.login__check,
+.login__check-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__check {
+    margin-bottom: 1rem;
+    font-size: var(--small-font-size);
+}
+
+.login__check-box{
+    column-gap: .5rem;
+}
 
 
+.login__check-input{
+    width: 10rem;
+    height: 1rem;
+    accent-color: var(--white-color);
+}
+
+.login__forgot{
+    color: var(--white-color);
+}
 
 
 /* BREAKPOINTS */
