@@ -2,11 +2,11 @@
 
 
 /* variable css */
-:root{
+:root {
     /* colors */
     /* color mode HSL (hue, saturation, lightness) */
-    --white-color: hsl(0, 0, 100%);
-    --black-color: hsl(0, 0, 0);
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
 
     /* font & typography */
     /* .5rem = 8px | 1rem = 16px */
@@ -48,8 +48,8 @@ img{
     height: 100vh;
     display: grid;
     align-items: center;
-
 }
+
 .login__bg {
     position: absolute;
     width: 100%;
@@ -69,19 +69,18 @@ img{
     backdrop-filter: blur(16px);
 }
 
-.login__title{
+.login__title {
     text-align: center;
     font-size: var(--h1-font-size);
     margin-bottom: 1.25rem;
 }
 
 .login__inputs,
-.login_box{
+.login__box {
     display: grid;
-
 }
 
-.login__inputs{
+.login__inputs {
     row-gap: 1.25rem;
     margin-bottom: 1rem;
 }
@@ -154,7 +153,7 @@ img{
     background-color: var(--white-color);
     border-radius: 4rem;
     color: var(--black-color);
-    font-weight: 500;
+    font-weight: 650;
     cursor: pointer;
 }
 
